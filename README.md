@@ -5,7 +5,7 @@
 1. This project comprises:
   - `design-mock-up-portfolio.html`
   - `design-mock-up-portfolio-stylesheet.css`
-  - `FE-ND-project2-README.md`
+  - `README.md`
   - `html_css_sample_dolphin_small.jpg`
   - `html_css_sample_dolphin_medium.jpg`
   - `python_quiz_small.jpg`
