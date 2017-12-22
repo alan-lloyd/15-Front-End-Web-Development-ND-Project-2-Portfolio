@@ -1,0 +1,46 @@
+h1
+{
+  text-align: right;
+}
+
+h2
+{
+  text-align: right;
+}
+
+h3
+{
+  text-align: left;
+  color: #2F4F4F;
+}
+
+h4
+{
+  text-align: center;
+  color: #2F4F4F;
+}
+
+hr {
+  border-style: solid;
+  border-color: #696969;
+  margin-top: 1.0em;
+  margin-bottom: 1.5em;
+  border-width: 5px 0 0 0;
+  text-align:left;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+picture
+{
+  margin: 20px;
+}
+
+p{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: adjust;
+  text-align:right;
+}
