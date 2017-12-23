@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+  <link rel="stylesheet" href="css/design-mock-up-portfolio-stylesheet.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design Mock-up Portfolio</title>
+ </head>
+
+ <body >
+   <!--flexbox container 1 of 3 - with logo and two text titles-->
+   <div class="top-flex-container">
+       <div class="top-logo-padding">
+         <img src="img/udacity-logo-img.jpg" class="img-left" alt="udacity logo">
+       </div>
+       <div class="top-text-padding">
+         <header><h1>ALAN LLOYD</h1></header>
+       </div>
+       <div class="top-text-padding">
+         <h2>FRONT-END DEVELOPER</h2>
+       </div>
+  </div>
+
+<!--flexbox container 2 of 3 - with large 'android' img and 2 items of text-->
+  <div class="mid-page-flex-container">
+        <div class="mid-page-content">
+          <hr>
+          <picture>
+            <source media="(min-width:980px)" srcset="img/image_android_app_large.jpg">
+            <source media="(min-width:680px)" srcset="img/image_android_app_small.jpg">
+            <source media="(min-width:50px)"  srcset="img/image_android_app_tiny.jpg">
+            <img src="img/image_android_app_large.jpg" alt="android app">
+          </picture>
+        </div>
+        <div class="mid-page-flex-container">
+          <article><h3>An experienced web content editor, now a fully-trained developer, who will make your website more accessible, responsive and better-designed.</h3></article>
+        </div>
+        <div class="mid-page-flex-container">
+          <h3>Featured Work:</h3>
+        </div>
+   </div>
+
+
+  <!--flexbox container 3 of 3 - 3 images in row, each img with a url link and a h4 text-->
+  <div class="images-flex-container">
+            <div class="images-row">
+            <picture>  <!--two image versions per each of the 3 displayed images-->
+              <source media="(min-width:1275px)" srcset="img/python_quiz_medium.jpg">
+              <source media="(min-width:50px)" srcset="img/python_quiz_small.jpg">
+              <img src="img/python_quiz_small.jpg" alt="python quiz">
+            </picture>
+            <h4>INTERACTION</h4>
+            <h4><a href="http://bit.ly/2kUH4Dn" target="_blank">http://bit.ly/2kUH4Dn</a></h4>
+            </div>
+
+            <div class="images-row">
+            <picture>
+              <source media="(min-width:1275px)" srcset="img/html_css_sample_dolphin_medium.jpg">
+              <source media="(min-width:50px)" srcset="img/html_css_sample_dolphin_small.jpg">
+              <img src="img/html_css_sample_dolphin_small.jpg" alt="web content designed">
+            </picture>
+            <h4>DESIGN</h4>
+            <h4><a href="http://bit.ly/2p4Npl0" target="_blank">http://bit.ly/2p4Npl0</a></h4>
+            </div>
+
+            <div class="images-row">
+            <picture>
+              <source media="(min-width:1275px)" srcset="img/webpage_films_medium.png">
+              <source media="(min-width:50px)" srcset="img/webpage_films_small.png">
+              <img src="img/webpage_films_small.png" alt="shopping window">
+            </picture>
+            <h4>CUSTOMERS</h4>
+            <h4><a href="http://bit.ly/2BJAOGC" target="_blank">http://bit.ly/2BJAOGC</a></h4>
+            </div>
+  </div>
+
+ </body>
+</html>

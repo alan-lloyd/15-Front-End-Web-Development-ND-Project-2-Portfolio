@@ -10,14 +10,54 @@ h2
 
 h3
 {
-  text-align: left;
-  color: #2F4F4F;
+  text-align: center;
+  color: #2f4f4f;
 }
 
 h4
 {
   text-align: center;
-  color: #2F4F4F;
+  color: #2f4f4f;
+}
+
+/*top 1 of 3 flexbox containers - this for logo and titles*/
+.top-flex-container
+{
+display: flex;
+flex-direction: column;
+}
+/*for Udacity logo*/
+.top-logo-padding
+{
+  padding-left: 7%;
+  padding-top: 3%;
+}
+/*for name and description top-right*/
+.top-text-padding
+{
+  padding-right: 7%;
+}
+
+/*  2nd of 3 flexbox containers - this for large image and 2 pieces of text below it*/
+.mid-page-flex-container
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+/*for the 'android' image*/
+.images-flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*for text below android image*/
+.mid-page-content
+{
+align-self: center;
 }
 
 hr {
@@ -27,11 +67,6 @@ hr {
   margin-bottom: 1.5em;
   border-width: 5px 0 0 0;
   text-align: left;
-}
-
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 picture
@@ -45,7 +80,7 @@ p{
   text-align: right;
 }
 
-.img-left
+img
 {
-  float: left;
+  width: auto;
 }
